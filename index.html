@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>React hello world</title>
+    <script src="build.js" defer></script>
+    <style>
+        .checked {
+            text-decoration: line-through;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+      
+        .comment {
+            border: 1px solid black;
+            margin-top: 15px;
+            display: flex;
+        }
+        .comment__author {
+            display: inline-block;
+            width: 100px;
+            flex-shrink: 0;
+        }
+        .comment__date-time {
+            display: inline-block;
+            width: 150px;
+            flex-shrink: 0;
+        }
+        .comment__text {
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+</html>
